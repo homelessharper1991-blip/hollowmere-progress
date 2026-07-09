@@ -2,6 +2,8 @@
 
 ## Changelog (append-only; newest first)
 
+- **2026-07-09** - **FIRST COMBAT:** full loop live (create - travel - mob aggro/chase - 6s rounds with real d20 math - paralysis riders - crits - death - loot). Bridge bundle smoke-tested; world renderer parse-clean. A graveyard ghoul paralyzed and dropped the first fighter who challenged it - as the book intends.
+
 - **2026-07-09** — **FIRST BOOT:** server module published locally; world seeded (8 NPCs, 33 mobs, 3 zones); first character created via reducer with correct RAW math (fighter, 12/12 HP). Movement/combat systems still landing.
 
 - **2026-07-09 (later)** â€” **FOUR OWNER RULINGS:** â‘  PERMADEATH YES, with resurrection contracts â€” telepathic cleric-call (SRD *Sending*), player clerics get first claim, NPC casters are fallback, RAW time windows + gold set the real bounds. â‘¡ OPEN PVP YES, governed by full crime/bounty simulation. â‘¢ Observed/unobserved = outcome-equivalent batch resolution (delegated; DM-practice-accurate). â‘£ Prior kd-tree notes SCRAPPED; owner intent = kd-tree for dynamic server-cell assignment, settled in a dedicated review. **NEW DIRECTIVE: SERVER CELLS** (multi-database world, atlas module, portal-aligned transfers) â€” promoted to V2, staged in `features/cells/` (DESIGN.md #9).
