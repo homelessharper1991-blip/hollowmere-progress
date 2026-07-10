@@ -2,6 +2,8 @@
 
 ## Changelog (append-only; newest first)
 
+- **2026-07-09 (night)** - **THE RESKIN + DIALOGUE MILESTONE:** Flare art pack (CC-BY-SA, credited) rendering live - textured village, props, animated creature sheets. Dialogue/quest server system complete: Maera's full authored campaign dialogue verified in-game (skill-check options, branching, quest hooks). Auto-respawn shipped. QA autopilot green.
+
 - **2026-07-09** - **FIRST COMBAT:** full loop live (create - travel - mob aggro/chase - 6s rounds with real d20 math - paralysis riders - crits - death - loot). Bridge bundle smoke-tested; world renderer parse-clean. A graveyard ghoul paralyzed and dropped the first fighter who challenged it - as the book intends.
 
 - **2026-07-09** — **FIRST BOOT:** server module published locally; world seeded (8 NPCs, 33 mobs, 3 zones); first character created via reducer with correct RAW math (fighter, 12/12 HP). Movement/combat systems still landing.
