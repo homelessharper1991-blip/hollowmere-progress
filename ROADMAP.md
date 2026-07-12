@@ -2,6 +2,8 @@
 
 ## Changelog (append-only; newest first)
 
+- **2026-07-12** - **SOUND ON:** 6 procedural dark-fantasy tracks (menu/village/fen/crypt/combat/boss, loop-clean OGG, D dorian) + 27 SFX live in the web client - zone music, combat/boss music overrides, per-event combat sounds, all verified in-browser by the QA autopilot (music switch + sfx resolution logged). New synthesis pipeline under tools/music (dsp.py/compose.py/sfx.py/verify.py, fully programmatic - no plan tokens spent on iteration). Also: fixed autonomous QA freezing in hidden browser tabs (worker-clock rAF shim; players who background the tab keep simulating too), QA bot now survives losing a fight (death -> respawn -> re-hunt). Bridge e2e 14/14.
+
 - **2026-07-10** - **SPELLS + AUTO-TILING:** full spellcasting (slots, wind-up, all five spell kinds, Bless rolled 1d4, friendly-fire AoE per doctrine) verified by wizard bot kill. Auto-tiled maps with genuine Flare transition tiles shipped after 4 judged visual iterations - village/fen read as legitimate levels.
 
 - **2026-07-09 (night)** - **THE RESKIN + DIALOGUE MILESTONE:** Flare art pack (CC-BY-SA, credited) rendering live - textured village, props, animated creature sheets. Dialogue/quest server system complete: Maera's full authored campaign dialogue verified in-game (skill-check options, branching, quest hooks). Auto-respawn shipped. QA autopilot green.
