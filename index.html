@@ -81,12 +81,50 @@
     <div class="row"><span><b>Keyart — intro &amp; menu</b><i>7 panels, FLUX.1-schnell on the local RTX A4500</i></span><span class="chip done">rendered</span></div>
     <div class="row"><span><b>UI icon set</b><i>28 spell / item / condition icons + manifest</i></span><span class="chip done">done</span></div>
     <div class="row"><span><b>Roadmap — simulation doctrine</b><i>regenerating under all four directives</i></span><span class="chip run">running</span></div>
-    <div class="row"><span><b>Campaign content &amp; assets</b><i>zones, quests, dialogue · sprites, tiles, portraits, music, SFX</i></span><span class="chip run">running</span></div>
-    <div class="row"><span><b>SpacetimeDB server module</b><i>5e rules engine, combat, mob AI, quests — C#</i></span><span class="chip run">running</span></div>
-    <div class="row"><span><b>Godot web client</b><i>world renderer, HUD, dialogue, chat — no-threads web export</i></span><span class="chip run">running</span></div>
+    <div class="row"><span><b>Campaign content &amp; assets</b><i>zones, quests, dialogue · sprites, tiles, portraits, music, SFX</i></span><span class="chip done">done</span></div>
+    <div class="row"><span><b>SpacetimeDB server module</b><i>5e rules engine, combat, mob AI, quests — C#</i></span><span class="chip done">live</span></div>
+    <div class="row"><span><b>Godot web client</b><i>world renderer, HUD, dialogue, chat — no-threads web export</i></span><span class="chip done">live</span></div>
     <div class="row"><span><b>Procedural generators</b><i>wilderness · dungeon · settlement + statted population</i></span><span class="chip run">running</span></div>
     <div class="row"><span><b>Silt Court expansion</b><i>levels 3–5 arc, staged for post-slice merge</i></span><span class="chip run">running</span></div>
     <div class="row"><span><b>Integration &amp; browser playthrough</b><i>publish, export, play, load-bot crowd test — screenshots land here</i></span><span class="chip next">queued</span></div>
+  </div>
+
+  
+  <h2>It runs — gameplay</h2>
+  <p>Live captures from the browser build: the autopilot plays a full loop (create &rarr;
+  fight &rarr; loot &rarr; talk) while headless Chrome takes the pictures.
+  <a href="gameplay.html" style="color:var(--ember)">Full gameplay report &rarr;</a></p>
+  <div class="gallery">
+      <figure class="wide">
+        <img src="shots/combat.jpg" alt="Combat in the reeve's hall" loading="lazy">
+        <figcaption><strong>Six-second rounds, real dice</strong>
+        <span>Target frame tracks the rat at 4/10 HP; the floating red text is the server's actual d20 roll. Action bar, chat and the NWN-style combat log below.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="shots/dialogue.jpg" alt="Dialogue with Reeve Maera" loading="lazy">
+        <figcaption><strong>The campaign speaks</strong>
+        <span>Maera's opening dialogue — portrait, authored prose, a [Perception DC 12] check… while the death overlay counts down. Both at once, neither blinking.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="shots/wizard.jpg" alt="Wizard action bar" loading="lazy">
+        <figcaption><strong>A wizard learns respect</strong>
+        <span>School-colored spell slots on keys 1–5. The rat's bite came up d20 11+4 = 15. The dice are real; mercy is not.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="shots/village.jpg" alt="Hollowmere village" loading="lazy">
+        <figcaption><strong>Hollowmere Village</strong>
+        <span>Auto-tiled roads and grass from genuine Flare tiles — a 4-bit neighbor mask picks every transition piece.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="shots/intro.jpg" alt="Intro title card" loading="lazy">
+        <figcaption><strong>The Drowned Vigil</strong>
+        <span>Ken-Burns intro over the keyart, narration cards, any-key skip.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="shots/menu.jpg" alt="Login menu" loading="lazy">
+        <figcaption><strong>The front door</strong>
+        <span>Keyart menu, slow fade from black. Connect, forge a character, walk into the mere.</span></figcaption>
+      </figure>
   </div>
 
   <h2>Keyart</h2>
